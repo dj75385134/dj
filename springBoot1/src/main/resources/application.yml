@@ -1,0 +1,27 @@
+server:
+   port: 8888
+spring:
+   datasource:
+        driverClassName:  com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8
+        username: root
+        password:
+   redis:
+        host: 127.0.0.1
+        port: 6379
+mybatis:
+   mapper-locations: classpath:mapper/*Mapper.xml
+
+name: haohao
+
+person:
+  name: haohao
+  age: 31
+  addr: wuhan
+
+
+city:
+  - beijing
+  - tianjin
+  - shanghai
+  - chongqing
